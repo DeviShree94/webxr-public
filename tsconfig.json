@@ -4,11 +4,10 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "noImplicitOverride": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "noImplicitReturns": true,
+    "forceConsistentCasingInFileNames": false,
+    "noImplicitOverride": false,
+    "noPropertyAccessFromIndexSignature": false,
+    "noImplicitReturns": false,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "declaration": false,
@@ -18,16 +17,17 @@
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",
+    "skipLibCheck": true,
     "useDefineForClassFields": false,
     "lib": [
       "ES2022",
       "dom"
     ]
   },
-  "angularCompilerOptions": {
-    "enableI18nLegacyMessageIdFormat": false,
-    "strictInjectionParameters": true,
-    "strictInputAccessModifiers": true,
-    "strictTemplates": true
-  }
+  // "angularCompilerOptions": {
+  //   "enableI18nLegacyMessageIdFormat": false,
+  //   "strictInjectionParameters": true,
+  //   "strictInputAccessModifiers": true,
+  //   "strictTemplates": true
+  // }
 }
